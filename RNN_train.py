@@ -85,6 +85,6 @@ model = make_model(eng_vocab_size, deu_vocab_size, eng_length, deu_length, 512)
 # Тренировка модели
 num_epochs = 250
 history = model.fit(trainX, trainY.reshape(trainY.shape[0], trainY.shape[1], 1), epochs=num_epochs, batch_size=512, validation_split=0.2, callbacks=None, verbose=1)
-model.save('RNN.h5')
+model.save('models/RNN.h5')
 
 

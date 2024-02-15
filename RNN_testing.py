@@ -3,7 +3,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
 import numpy as np
 # Загрузка модели
-model = load_model('RNN.h5')
+model = load_model('models/RNN.h5')
 
 def read_text(filename):
     with open(filename, mode='rt', encoding='utf-8') as file:

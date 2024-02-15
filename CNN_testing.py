@@ -16,6 +16,8 @@ def img_convert(img_path):
 model = tf.keras.models.load_model("models/CNN.h5")
 dog_img = img_convert("data/dog_test.png")
 cat_img = img_convert("data/cat_test.png")
+dog2_img = img_convert("data/test_dog2.jpg")
 test(dog_img, model)
 test(cat_img, model)
+test(dog2_img, model)
 
