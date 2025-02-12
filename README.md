@@ -6,6 +6,7 @@
 В папке models находятся уже обученные модели.
 Для скачивания зависимостей введите: 
 
+
 ```powershell
 pip install -r requirements.txt
 ```
